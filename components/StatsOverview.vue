@@ -136,7 +136,7 @@ export default {
         let split = window.location.href.split('/');
         return split[0] + '//' + split[2];
       } else {
-        return 'https://www.coronatracker.com';
+        return 'https://ct.coronapandemic.in';
       }
     },
     shareUrl() {
