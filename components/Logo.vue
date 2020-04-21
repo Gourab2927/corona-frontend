@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center cursor-pointer" @click="goHome">
     <img :src="logo" class="h-12 w-auto mr-3" alt="logo"/>
-    <div class="text-2xl font-bold text-black">Corona<span class="text-red-600">Tracker</span></div>
+    <div class="text-2xl font-bold text-black">Corona<span class="text-red-600">Pandemic</span></div>
   </div>
 </template>
 
