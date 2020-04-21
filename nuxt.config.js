@@ -7,7 +7,7 @@ let routes;
 
 const localeContext = require('./utils/constants.js');
 const utils = require('./utils/generateRoutes.js');
-const baseUrl = process.env.BASE_URL || 'https://www.coronatracker.com';
+const baseUrl = process.env.BASE_URL || 'https://ct.coronapandemic.in';
 
 const shouldGenerateRoutes = [undefined, "" , "true"].includes(process.env.GENERATE_ROUTES) ? true : false
 
